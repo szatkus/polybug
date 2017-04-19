@@ -1,0 +1,18 @@
+{
+  "name": "polybug",
+  "main": "./lib/polybug",
+  "version": "0.0.1",
+  "description": "A short description of your package",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "polybug:debug"
+  },
+  "repository": "https://github.com/szatkus/polybug",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.15.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
