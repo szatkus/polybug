@@ -1,5 +1,5 @@
 # polybug package
 
-A short description of your package.
+Simple debugger for Atom. Currently supports only Python.
 
-![A screenshot of your package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
+It's my first packages, so it's probably pretty bad.
