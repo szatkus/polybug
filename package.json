@@ -1,7 +1,7 @@
 {
   "name": "polybug",
   "main": "./lib/polybug",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Simple debugger for Atom. Currently supports only Python.",
   "keywords": [],
   "activationCommands": {
