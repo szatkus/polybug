@@ -6,15 +6,7 @@ It's my first packages, so it's probably pretty bad.
 
 # Roadmap
 
-## 0.0.2
-* Tests
-* Bugfixes
-* Python path config
-
 ## 0.0.3
-* Debug specific command line
-
-## 0.0.4
 * continue/step/next/return/run/restart buttons
 
 ## 0.1.0
