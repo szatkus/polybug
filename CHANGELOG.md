@@ -1,3 +1,6 @@
+## 0.0.3
+* Fix activation
+
 ## 0.0.2
 * Add pythonPath and commandLine configs
 * "Debug Project" command
