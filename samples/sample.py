@@ -5,5 +5,8 @@ def a():
     b = 1
     print(b * 2)
 
-print('start')
+print 'start'
 a()
+
+while True:
+    sleep(1)

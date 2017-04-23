@@ -5,7 +5,8 @@
   "description": "Simple debugger for Atom. Currently supports only Python.",
   "keywords": [],
   "activationCommands": {
-    "atom-workspace": "polybug:debug"
+    "atom-workspace": "polybug:debug",
+    "atom-workspace": "polybug:debug-project"
   },
   "repository": "https://github.com/szatkus/polybug",
   "license": "MIT",

@@ -7,8 +7,12 @@
           "label": "Polybug",
           "submenu": [
             {
-              "label": "Debug",
+              "label": "Debug File",
               "command": "polybug:debug"
+            },
+            {
+              "label": "Debug Project",
+              "command": "polybug:debug-project"
             }
           ]
         }

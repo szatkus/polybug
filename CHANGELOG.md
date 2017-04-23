@@ -1,5 +1,6 @@
 ## 0.0.2
-* Change key binding to ctrl-alt-d
+* Add pythonPath and commandLine configs
+* "Debug Project" command
 
 ## 0.0.1
 * Just work.
