@@ -12,6 +12,9 @@ It's my first packages, so it's probably pretty bad.
 * Python path config
 
 ## 0.0.3
+* Debug specific command line
+
+## 0.0.4
 * continue/step/next/return/run/restart buttons
 
 ## 0.1.0
@@ -19,6 +22,9 @@ It's my first packages, so it's probably pretty bad.
 
 ## 0.1.1
 * Conditional breakpoints
+
+## 0.1.2
+* Line indicator
 
 ## 0.2.0
 * Stacktrace
@@ -42,9 +48,16 @@ It's my first packages, so it's probably pretty bad.
 ## 0.4.1
 * Watches
 
+## 0.5.0
+* Debug configurations
+
+## 0.6.0
+* Sidebar view
+
 ## 1.0.0
 * Another debug backend (TBD)
 
 ## x.x.x
 * async helper
 * Reload code on fly
+* Remote debug
