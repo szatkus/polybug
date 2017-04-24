@@ -7,6 +7,3 @@ def a():
 
 print 'start'
 a()
-
-while True:
-    sleep(1)
