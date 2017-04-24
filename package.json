@@ -3,7 +3,7 @@
   "main": "./lib/polybug",
   "version": "0.0.2",
   "description": "Simple debugger for Atom. Currently supports only Python.",
-  "keywords": [],
+  "keywords": ["python", "debug"],
   "activationCommands": {
     "atom-workspace": ["polybug:debug-project", "polybug:debug"]
   },
