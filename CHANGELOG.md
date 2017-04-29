@@ -1,5 +1,6 @@
 ## 0.0.3
 * Fix activation
+* continue/step/next/return/restart buttons
 
 ## 0.0.2
 * Add pythonPath and commandLine configs

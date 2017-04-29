@@ -6,9 +6,6 @@ It's my first packages, so it's probably pretty bad.
 
 # Roadmap
 
-## 0.0.3
-* continue/step/next/return/restart buttons
-
 ## 0.1.0
 * Breakpoints gutter
 
