@@ -1,6 +1,11 @@
 {
   "atom-workspace": {
-    "ctrl-alt-d": "polybug:debug",
-    "alt-d": "polybug:debug-project"
+    "f9": "polybug:debug-file",
+    "f11": "polybug:debug-project",
+    "f8": "polybug:continue",
+    "f5": "polybug:step",
+    "f6": "polybug:next",
+    "f7": "polybug:return",
+    "f12": "polybug:restart"
   }
 }

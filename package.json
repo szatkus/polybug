@@ -10,7 +10,7 @@
   "activationCommands": {
     "atom-workspace": [
       "polybug:debug-project",
-      "polybug:debug"
+      "polybug:debug-file"
     ]
   },
   "repository": "https://github.com/szatkus/polybug",

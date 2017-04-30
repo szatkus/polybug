@@ -8,7 +8,7 @@
           "submenu": [
             {
               "label": "Debug File",
-              "command": "polybug:debug"
+              "command": "polybug:debug-file"
             },
             {
               "label": "Debug Project",
