@@ -13,7 +13,7 @@ describe('Simple case', () => {
   it('Open correct file and exit', () => {
     runs(() => {
       let workspaceElement = atom.views.getView(atom.workspace);
-      atom.commands.dispatch(workspaceElement, 'polybug:debug');
+      atom.commands.dispatch(workspaceElement, 'polybug:debug-file');
       waitsFor(() => workspaceElement.querySelector('.polybug-panel .output').innerHTML);
       runs(() => {
         let output = workspaceElement.querySelector('.polybug-panel .output');
@@ -31,7 +31,7 @@ describe('Simple case', () => {
   it('Open correct file and exit', () => {
     runs(() => {
       let workspaceElement = atom.views.getView(atom.workspace);
-      atom.commands.dispatch(workspaceElement, 'polybug:debug');
+      atom.commands.dispatch(workspaceElement, 'polybug:debug-file');
       waitsFor(() => workspaceElement.querySelector('.polybug-panel .output').innerHTML);
       runs(() => {
         let output = workspaceElement.querySelector('.polybug-panel .output');
@@ -50,7 +50,7 @@ describe('Simple case', () => {
 
     runs(() => {
       let workspaceElement = atom.views.getView(atom.workspace);
-      atom.commands.dispatch(workspaceElement, 'polybug:debug');
+      atom.commands.dispatch(workspaceElement, 'polybug:debug-file');
       waitsFor(() => workspaceElement.querySelector('.polybug-panel .output').innerHTML);
       runs(() => {
         let output = workspaceElement.querySelector('.polybug-panel .output');
