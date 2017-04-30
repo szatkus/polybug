@@ -1,8 +1,4 @@
-
 # Roadmap
-
-## 0.1.0
-* Breakpoints gutter
 
 ## 0.1.1
 * Conditional breakpoints

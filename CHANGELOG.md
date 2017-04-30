@@ -1,6 +1,7 @@
 ## 0.1.0
 * Add shortcuts to toolbar actions (compatible with PyDev)
 * Rename polybug:debug command to polybug:debug-file
+* Add breakpoints gutter
 
 ## 0.0.3
 * Fix activation
