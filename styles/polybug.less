@@ -16,21 +16,29 @@
   background-color: #c44;
 }
 
-.polybug-panel .output {
-  width: 100%;
-  height: 200px;
-  background: black;
-  color: white;
-  overflow-y: scroll;
+.breakpoint-shadow {
+  opacity: 0.5;
+  pointer-events: none;
+  .breakpoint
 }
 
-.polybug-panel input {
-  font-family: monospace;
-  width: 100%;
-  border: 0;
-  padding: 0;
-}
+.polybug-panel{
+  .output {
+    width: 100%;
+    height: 200px;
+    background: black;
+    color: white;
+    overflow-y: scroll;
+  }
 
-.polybug-panel .btn svg {
-  margin-top: 4px;
+  input {
+    font-family: monospace;
+    width: 100%;
+    border: 0;
+    padding: 0;
+  }
+
+  .btn svg {
+    margin-top: 4px;
+  }
 }
