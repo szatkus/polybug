@@ -1,5 +1,7 @@
 ## 0.1.1
 * Add breakpoint shadow
+* Conditional breakpoints
+* Shortcut for breakpoint toggle (ctrl-alt-b)
 
 ## 0.1.0
 * Add shortcuts to toolbar actions (compatible with PyDev)

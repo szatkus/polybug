@@ -6,6 +6,7 @@
     "f5": "polybug:step",
     "f6": "polybug:next",
     "f7": "polybug:return",
-    "f12": "polybug:restart"
+    "f12": "polybug:restart",
+    "ctrl-alt-b": "polybug:breakpoint"
   }
 }

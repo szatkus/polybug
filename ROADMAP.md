@@ -1,8 +1,5 @@
 # Roadmap
 
-## 0.1.1
-* Conditional breakpoints
-
 ## 0.1.2
 * Line indicator
 
