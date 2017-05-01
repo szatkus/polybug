@@ -1,8 +1,5 @@
 # Roadmap
 
-## 0.1.2
-* Line indicator
-
 ## 0.2.0
 * Stacktrace
 

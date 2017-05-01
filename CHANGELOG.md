@@ -1,3 +1,8 @@
+## 0.1.2
+* Line indicator
+* Fix a problem with breakpoints
+* Fix <> in output
+
 ## 0.1.1
 * Add breakpoint shadow
 * Conditional breakpoints
