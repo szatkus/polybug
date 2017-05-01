@@ -67,4 +67,24 @@ describe('Simple case', () => {
       });
     });
   });
+
+  it('Open a file and step in', () => {
+    waitsForPromise(() => {
+      return atom.workspace.open('/home/szatkus/polybug/spec/simple2.py').then((editor) => {
+        let workspaceElement = atom.views.getView(atom.workspace);
+        waitsFor(() => workspaceElement.querySelector('.polybug-panel .output').innerHTML);
+        runs(() => {
+          expect(workspaceElement.querySelector('div[gutter-name="polybug"]')).toBeTruthy();
+          atom.commands.dispatch(workspaceElement, 'polybug:debug-file');
+          waitsFor(() => !workspaceElement.querySelector('div[gutter-name="polybug"]'));
+          runs(() => {
+            atom.commands.dispatch(workspaceElement, 'polybug:debug-file');
+            waitsFor(() => (workspaceElement.querySelector('div[gutter-name="polybug"]')));
+          });
+          waitsFor(() => workspaceElement.querySelector('.polybug-panel .output').innerHTML);
+        });
+        return atom.commands.dispatch(workspaceElement, 'polybug:debug-file');
+      });
+    });
+  });
 });
