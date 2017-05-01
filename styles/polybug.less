@@ -8,18 +8,30 @@
   width: 1em;
 }
 
-.breakpoint {
-  border-radius: 50%;
-  width: 10px;
-  height: 10px;
-  position: absolute;
-  background-color: #c44;
-  pointer-events: none;
-}
+.polybug-gutter {
+  .breakpoint.conditional {
+    background-color: #44c;
+  }
 
-.breakpoint-shadow {
-  opacity: 0.5;
-  .breakpoint
+  .breakpoint {
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    background-color: #c44;
+    pointer-events: none;
+  }
+
+  .breakpoint-shadow {
+    opacity: 0.5;
+    .breakpoint
+  }
+
+  input {
+    position: absolute;
+    width: 100px;
+    outline: black;
+  }
 }
 
 .polybug-panel{
