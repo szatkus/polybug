@@ -1,10 +1,11 @@
 import sys
 from time import sleep
+from samples.utils import b
 
 def a():
-    b = 1
-    print(b * 2)
+    c = 1
+    print(c * 2)
+    b()
 
 print('start')
 sleep(2)
-a()
