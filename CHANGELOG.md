@@ -1,3 +1,8 @@
+## 0.1.3
+* Fix state bug
+* Fix line indicator on Windows
+* Improve indicator behavior
+
 ## 0.1.2
 * Line indicator
 * Fix a problem with breakpoints
