@@ -1,12 +1,6 @@
 # Roadmap
 
-## 0.2.0
-* Stacktrace
-
 ## 0.2.1
-* Move frame
-
-## 0.2.2
 * Peek on mouse over
 
 ## 0.3.0

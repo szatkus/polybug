@@ -1,5 +1,7 @@
 ## 0.2.0
 * Fix breakpoints application
+* Add stack trace
+* Move frame
 
 ## 0.1.3
 * Fix state bug
