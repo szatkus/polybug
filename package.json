@@ -5,7 +5,8 @@
   "description": "Simple debugger for Atom. Currently supports only Python.",
   "keywords": [
     "python",
-    "debug"
+    "debug",
+    "pdb"
   ],
   "activationCommands": {
     "atom-workspace": [
